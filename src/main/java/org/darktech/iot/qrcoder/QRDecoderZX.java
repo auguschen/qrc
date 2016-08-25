@@ -43,7 +43,7 @@ public class QRDecoderZX extends HttpServlet {
 		req.setCharacterEncoding("utf-8");
 		resp.setCharacterEncoding("utf-8");
 		resp.setContentType("text/plain");
-		String QRImageUrl = req.getParameter("url");
+		String QRImageUrl = req.getParameter("u");
 		BufferedImage bufferedImage = null;
 
 		try {

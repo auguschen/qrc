@@ -66,7 +66,7 @@ public class QREncoderZX extends HttpServlet {
 		}
 		byte[] logo = logourl.getBytes("ISO-8859-1");
 		
-		String level = req.getParameter("lvl");
+		String level = req.getParameter("e");
 		if (level==null || level.isEmpty()){
 			level = "M";
 		}
